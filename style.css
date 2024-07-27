@@ -147,3 +147,125 @@ footer {
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
     font-size: 1rem;
 }
+
+/* Additional Styles */
+.extra-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+}
+
+.extra-content h2 {
+    font-size: 2rem;
+    color: #3b5998;
+    margin-bottom: 15px;
+}
+
+.extra-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.extra-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.extra-content ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+.sample-question {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.sample-question p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.sample-question .btn {
+    background-color: #e0e0e0;
+    border-color: #ddd;
+    color: #333;
+}
+
+.sample-question .btn:hover {
+    background-color: #ddd;
+}
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.start-btn.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.start-btn.disabled:hover {
+    background-color: #ccc;
+}
+
+.btn-container .btn:disabled {
+    background-color: #e0e0e0;
+    color: #999;
+    cursor: not-allowed;
+}
+
+.btn-container .btn:disabled:hover {
+    background-color: #e0e0e0;
+}
+
+@media (max-width: 768px) {
+    .quiz-heading {
+        font-size: 2.5rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+
+    .question-container {
+        padding: 15px;
+    }
+
+    .extra-content {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .quiz-heading {
+        font-size: 2rem;
+    }
+
+    .btn {
+        font-size: 0.8rem;
+        padding: 8px;
+    }
+
+    .question-container {
+        padding: 10px;
+    }
+
+    .extra-content {
+        padding: 10px;
+    }
+}
