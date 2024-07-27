@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css"/>
+    <title>Quiz App</title>
+</head>
+<body>
+<header>
+    <h1 class="header-title">Quiz App</h1>
+</header>
+<main>
+    <div class="quiz-heading">Quiz App</div>
+    <div id="progress-bar-container">
+        <div id="progress-bar" class="hidden"></div>
+    </div>
+    <div class="quiz-container hidden">
+        <div id="question-container" class="question-container">
+            <div id="question">Question text</div>
+            <div id="answer-buttons" class="btn-container">
+                <button class="btn">1</button>
+                <button class="btn">2</button>
+                <button class="btn">3</button>
+                <button class="btn">4</button>
+            </div>
+        </div>
+    </div>
+    <button class="start-btn">Start</button>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
